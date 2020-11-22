@@ -1,0 +1,136 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 13px;
+    font-family: sans-serif;
+    margin: 20px;
+}
+
+.container{
+    max-width: 700px;
+    margin: 0px auto;
+}
+.top-section{
+    background-color: rgba(0, 0, 0, 0.1);
+    padding:20px;
+    font-weight: bold;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.brand{
+    font-size: 1.3rem;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+.nav-item{
+    text-decoration: none;
+    color: rgb(3,121,255);
+    padding: 10px 15px;
+}
+
+.nav-item:hover{
+    color: rgba(3,121,255, 0.8);
+}
+
+.active{
+    background-color: rgb(3,121,255);
+    color: white;
+    border-radius: 4px;
+}
+.active:hover{
+    color: white;
+}
+
+.jumbotron{
+    background-color: rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    
+}
+
+.jumbotron-heading{
+    font-size: 1.62rem;
+    margin: 20px;
+    font-weight: lighter;
+}
+
+.btn{
+    display: block;
+    margin: 10px auto;
+    font-weight: bold;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 15px;
+}
+
+.launch{
+    background-color:  rgb(3,121,255);
+}
+
+.signup{
+    background-color:  rgb(39,167,68)
+}
+
+.jumbotron-body{
+    color: rgba(0, 0, 0, 0.8);
+    margin: auto 10px;
+}
+
+.subheading-container{
+    margin-top: 20px;
+}
+.subheading-body{
+    font-size: 0.9rem;
+}
+
+.sub-heading{
+    font-size: 1.2rem;
+}
+
+.subheading-item{
+    margin-top: 30px;
+}
+
+.footer{
+    font-size: 0.7rem;
+    margin: 0px;
+    color: rgba(0, 0, 0, 0.6);
+}
+hr{
+    margin-bottom: 0;
+}
+
+@media (min-width:600px){
+    html{
+        font-size: 14px;
+    }
+    .top-section{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .subheading-container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .subheading-item{
+        width: 50%;
+        padding: 10px;
+    }
+}
+
+@media (min-width: 900px){
+    html{
+        font-size: 16px;
+    }
+}

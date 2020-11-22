@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+    <div class="top-section">
+        <div class="brand">
+            Starter Template Loded
+        </div>
+        <div class="navigation">
+            <a class="nav-item" href="index.html">Home</a>
+            <a class="nav-item active" href="form.html">Form</a>
+            <a class="nav-item" href="product.html">Products</a>
+        </div>
+    </div>
+
+    <form class="form" onsubmit="alert('thanks')">
+        <div class="form-component">
+            <div>
+                <label for="name">Full Name</label>
+            </div>
+            
+            <div class="input-container">
+                <i class="fa fa-user icon"></i>
+                <input class="input-field" type="text" placeholder="Username" id="name" required>
+              </div>
+        </div>
+
+        <div class="form-component">
+            <div>
+                <label for="addres1">Addres 1</label>
+            </div>
+            
+            <div class="input-container">
+                <i class="fa fa-address-card icon"></i>
+                <input class="input-field" type="text" placeholder="Addres line 1" id="addres1" required>
+              </div>
+        </div>
+
+        <div class="form-component">
+            <div>
+                <label for="addres2">Address 2</label>
+            </div>
+            
+            <div class="input-container">
+                <i class="fa fa-address-card icon"></i>
+                <input class="input-field" type="text" placeholder="Addres Line 2" id="addres2" required>
+              </div>
+        </div>
+
+        <div class="form-component">
+            <div>
+                <label for="city">City</label>
+            </div>
+            
+            <div class="input-container">
+                <i class="fa fa-building icon"></i>
+                <input class="input-field" type="text" placeholder="City" id="city" required>
+              </div>
+        </div>
+
+        <div class="form-component">
+            <div>
+                <label for="state">State /Province /Region</label>
+            </div>
+            
+            <div class="input-container">
+                <i class="fa fa-map-marker icon"></i>
+                <input class="input-field" type="text" placeholder="State/Province/Region" id="name" required>
+              </div>
+        </div>
+
+        <div class="form-component">
+            <div>
+                <label for="postcode">Postal Code/Zip</label>
+            </div>
+            
+            <div class="input-container">
+                <i class="fa fa-envelope-open icon"></i>
+                <input class="input-field" type="number" placeholder="Postal Code/Zip" id="postcode" required>
+              </div>
+        </div>
+
+        <div class="form-component">
+            <div>
+                <label for="country">Country</label>
+            </div>
+            
+            <div class="input-container">
+                <i class="fa fa-map icon"></i>
+                <select class="input-field" id="Country" required>
+                    <option class="input-field">
+                        India
+                    </option>
+                    <option class="input-field">
+                        United States of America
+                    </option>
+                </select>
+              </div>
+        </div>
+
+        <div class="form-component">
+            <div>
+                <label for="email">Email</label>
+            </div>
+            
+            <div class="input-container">
+                <i class="fa fa-at icon"></i>
+                <input class="input-field" type="email" placeholder="Email" id="email" required>
+              </div>
+        </div>
+
+
+        <div class="form-component">
+            <div>
+                <label for="phone">Phone Number</label>
+            </div>
+            
+            <div class="input-container">
+                <i class="fa fa-phone icon"></i>
+                <input class="input-field" type="tel" placeholder="Phone Number" id="phone" required>
+              </div>
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
